@@ -1,0 +1,17 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  host: 127.0.0.1
+
+development:
+  <<: *default
+  database: market_development
+
+test:
+  <<: *default
+  database: market_test
+
+production:
+  <<: *default
+  database: market_production

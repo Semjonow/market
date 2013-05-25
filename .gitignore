@@ -1,0 +1,5 @@
+.idea/*
+.ruby-version
+/.bundle
+/log/*.log
+/tmp
