@@ -23,10 +23,9 @@ ActiveRecord::Schema.define(:version => 20130525093020) do
   add_index "categories", ["name", "parent_id"], :name => "index_categories_on_name_and_parent_id", :unique => true
 
   create_table "products", :force => true do |t|
-    t.integer  "category_id",                 :null => false
-    t.string   "name",        :default => "", :null => false
-    t.datetime "created_at",                  :null => false
-    t.datetime "updated_at",                  :null => false
+    t.integer  "category_id", :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
     t.hstore   "properties"
   end
 
