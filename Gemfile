@@ -20,6 +20,8 @@ gem 'pg'
 gem 'foreigner'
 gem 'activerecord-postgres-hstore'
 
+gem 'nokogiri'
+
 gem 'haml-rails'
 gem 'jquery-rails'
 

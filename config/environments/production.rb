@@ -1,4 +1,6 @@
 Market::Application.configure do
+  DATA_URL = "http://storr.ru/Resources/Export/YandexMarket/storr_ru.xml"
+
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests
